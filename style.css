@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header{
+    width: 90%;
+    display: flex;
+    height: 20vh;
+    padding: 32px;
+    align-items: center;
+    margin: 22px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    margin-top: 0;
+    z-index: 1;
+}
+h2{
+font-size: 24px;
+line-height: 29.23px;
+letter-spacing: 0.01em;
+text-align: left;
+font-weight: 1200;
+
+}
+.karzina{
+    display: flex;
+    width: 150px;
+height: 50px;
+top: 95px;
+left: 1197px;
+gap: 0px;
+border-radius: 30px;
+opacity: 0px;
+border: none;
+align-items: center;
+justify-content: center;
+background-color: 
+#FE5F1E;
+gap: 8px;
+
+}
+.header_hr{
+    width: 0.5px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.336);
+    border: none;
+}
+.karzina>p{
+font-size: 17px;
+top: 110px;
+font-weight: 700;
+color: white;
+
+}
+.button{
+    display: flex;
+    width: 90%;
+    gap: 22px;
+    align-items: center;
+}
+.button>button{
+    width: 122.63px;
+height: 46px;
+top: 221px;
+left: 203.05px;
+gap: 0px;
+border-radius: 30px ;
+opacity: 0px;
+border: none;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.49px;
+letter-spacing: 0.015em;
+text-align: center;
+transition: 0.5s;
+
+}
+.button>button:focus{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.wrapper>div{
+    width: 290px;
+height: 459px;
+top: 373px;
+left: 112px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0.5px 0.5px 15px 0px rgba(128, 128, 128, 0.344);
+border-radius: 12px;
+margin-bottom: 20px;
+}
+
+.wrapper{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+   text-align: left;
+   width: 90%;
+}
+.btn{
+    display: flex;
+    background-color: black;
+}
+.tp{
+    display: flex;
+    gap: 5px;
+    width: 260px;
+    justify-content: space-between;
+padding: 12px;
+height: 45px;
+
+}
+.tp>button{
+    width: 86.01px;
+height: 32px;
+top: 736px;
+left: 839.47px;
+gap: 0px;
+border-radius: 5px ;
+opacity: 0px;
+border:none;
+font-family: Proxima Nova;
+font-size: 15px;
+font-weight: 800;
+line-height: 17.05px;
+letter-spacing: 0.015em;
+text-align: center;
+
+}.tp>button:focus{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.wrapper>div>p{
+    font-family: Proxima Nova;
+font-size: 20px;
+font-weight: 800;
+line-height: 24.36px;
+letter-spacing: 0.01em;
+text-align: center;
+margin: 4px;
+}
+.ps{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+padding: 12px;
+height: 45px;
+font-size: 28px;
+font-weight: 700;
+align-items: center;
+justify-content: center;
+}
+.ps>button{
+    width: 132px;
+height: 40px;
+top: 792px;
+left: 890px;
+gap: 0px;
+margin-left: 10px;
+border-radius: 30px;
+border: 1px solid #EB5A1E;
+opacity: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+font-family: Proxima Nova;
+font-size: 16px;
+background-color: white;
+font-weight: 800;
+color: #EB5A1E;
+}
+.ps>button:focus{
+    background-color:#EB5A1E;
+    color: white;
+    transition: 0.5s;
+}
+.som{
+    background-color:#EB5A1E;
+    width: 22px;
+height: 22px;
+top: 801px;
+left: 356px;
+gap: 0px;
+opacity: 0px;
+border-radius: 50%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid white;
+}
+.wrapper>div>img{
+    width: 230px;
+    height: 230px;
+    margin-top: 4px;
+}
